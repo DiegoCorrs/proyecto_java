@@ -1,0 +1,27 @@
+Historia de Usuario 1: Como cliente, quiero poder ingresar los datos de mi vehículo para calcular el costo de envío.
+Objetivo:
+Permitir a los clientes ingresar la información necesaria sobre su vehículo y la distancia al destino para calcular el costo de envío de su compra.
+
+Criterios de Aceptación:
+El usuario debe poder ingresar la marca, modelo, cilindrada, tipo de combustible y capacidad en pasajeros de su vehículo.
+El usuario debe poder ingresar la distancia al destino en kilómetros.
+El sistema debe calcular y mostrar el costo de envío según las reglas de negocio establecidas.
+El sistema debe validar que los datos ingresados por el usuario sean válidos y consistentes.
+
+Historia de Usuario 2: Como cliente, quiero poder ingresar el monto total de mi compra para calcular el costo de envío.
+Objetivo:
+Permitir a los clientes ingresar el monto total de su compra junto con la información del vehículo para calcular el costo de envío.
+
+Criterios de Aceptación:
+El usuario debe poder ingresar el monto total de su compra.
+El sistema debe considerar el monto total de la compra al calcular el costo de envío.
+El sistema debe calcular y mostrar el costo de envío según las reglas de negocio establecidas.
+
+Historia de Usuario 3: Como cliente, quiero que se me informe si mi destino está dentro del área de cobertura.
+Objetivo:
+Informar a los clientes si la distancia al destino está dentro del radio de 20 km, lo que garantiza la posibilidad de envío gratuito.
+
+Criterios de Aceptación:
+El sistema debe solicitar al usuario la distancia al destino en kilómetros.
+Si la distancia al destino es menor o igual a 20 km, el sistema debe informar al usuario que su destino está dentro del área de cobertura.
+Si la distancia al destino es mayor a 20 km, el sistema debe informar al usuario que su destino está fuera del área de cobertura y no realizar más cálculos.
